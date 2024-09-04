@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/Settings.css';
 
-const Settings = ({ currentLanguage, onLanguageChange }) => {
+const Settings = ({ language, onLanguageChange }) => {
   const languages = ['English', 'French', 'German', 'Russian', 'Spanish', 'Chinese'];
 
   return (
     <div className="settings">
-      <label htmlFor="language-select">Choose Language:</label>
+      <label htmlFor="language-select">Select Language:</label>
       <select
         id="language-select"
-        value={currentLanguage}
+        value={language}
         onChange={(e) => onLanguageChange(e.target.value)}
       >
         {languages.map((lang) => (

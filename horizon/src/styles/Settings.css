@@ -1,14 +1,14 @@
 .settings {
-    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
   }
   
-  label {
-    font-size: 1.2rem;
+  .settings label {
     margin-right: 10px;
   }
   
-  select {
-    font-size: 1rem;
-    padding: 5px;
+  .settings select {
+    font-size: 1em;
   }
   
